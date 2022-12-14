@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react";
-import { Banner, Title, Category, ProductCard, Blog } from "../../components";
+import { Banner, Title, Category, ProductCard } from "../../components";
 import {ApiProduct} from '../../service/api.product'
 
 const Home = () => {
