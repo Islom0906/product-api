@@ -4,7 +4,7 @@ import {ApiProduct} from '../../service/api.product'
 
 const Home = () => {
   const [product, setproduct] = useState([])
-console.log(product);
+
   useEffect(()=>{
     const getData= async ()=>{
       console.log('render');
@@ -28,6 +28,7 @@ console.log(product);
             textValue={"Our products."}
             buttonValue={"View all (12)"}
             buttonbg={"white"}
+            link={"/all-products"}
           />
           <Category />
           <div className="grid mt-8 gap-7 sm:grid-cols-2 lg:grid-cols-3 products">
