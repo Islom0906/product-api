@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Footer } from "../";
 import { Route, Routes } from "react-router-dom";
-import { Home, AllProducts,Detailed } from "../../pages";
+import { Home, AllProducts,Detailed,NotFound } from "../../pages";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/all-products" element={<AllProducts />} />
           <Route path="/product/:id" element={<Detailed />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

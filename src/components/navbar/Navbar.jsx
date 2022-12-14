@@ -30,7 +30,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" className="text-sm text-navbarColor">
+              <Link to="/nimadir" className="text-sm text-navbarColor">
                 OUR BLOG
               </Link>
             </li>
