@@ -1,0 +1,30 @@
+[
+  {
+    "icon":"./assets/icon/all.svg",
+    "title":"ALL"
+  },
+  {
+    "icon":"./assets/icon/BUNDLESall.svg",
+    "title":"BUNDLES"
+  },
+  {
+    "icon":"./assets/icon/HERBS.svg",
+    "title":"HERBS"
+  },
+  {
+    "icon":"./assets/icon/VEGETABLES.svg",
+    "title":"VEGETABLES"
+  },
+  {
+    "icon":"./assets/icon/FRUITS.svg",
+    "title":"FRUITS"
+  },
+  {
+    "icon":"./assets/icon/SUPPLIES.svg",
+    "title":"SUPPLIES"
+  },
+  {
+    "icon":"./assets/icon/FLOWERS.svg",
+    "title":"FLOWERS  "
+  }
+]
