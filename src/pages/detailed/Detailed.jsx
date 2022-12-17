@@ -47,14 +47,14 @@ const Detailed = () => {
           />
         </div>
         <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-2xl font-bold title text-text">
+          <h1 className="text-2xl font-bold title text-text dark:text-white">
             {deatailed.title}
           </h1>
-          <p className="text-base description text-text">
+          <p className="text-base description text-text dark:text-white">
             {deatailed.description}
           </p>
           <div className="flex items-start justify-between w-full">
-            <span className="text-3xl font-bold text-text">
+            <span className="text-3xl font-bold text-text dark:text-white">
               ${deatailed.price}
             </span>
             <Button value={"Add to card"} bg={"button"} />

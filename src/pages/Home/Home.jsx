@@ -41,10 +41,10 @@ const Home = () => {
         </div>
         <div className="grid gap-10 mt-20 lg:gap-20 lg:grid-cols-2">
           <div className="flex flex-col items-start">
-            <h1 className="text-xl font-bold lg:text-4xl md:text-3xl sm:text-2xl text-text">
+            <h1 className="text-xl font-bold lg:text-4xl md:text-3xl sm:text-2xl text-text dark:text-white">
               Seedra helps to grow fast and efficiant
             </h1>
-            <p className="mt-8 text-base text-text">
+            <p className="mt-8 text-base text-text dark:text-white">
               SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and
               professional instructions created by PhD Helga George
               <br />

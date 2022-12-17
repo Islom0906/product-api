@@ -2,12 +2,12 @@ import {Button} from '../'
 
 const Banner = () => {
   return (
-    <div className="container grid gap-8 py-12 mx-auto mt-8 lg:pl-16 lg:gap-16 lg:grid-cols-2 xl:grid-cols-3 bg-banner rounded-3xl">
+    <div className="container grid gap-8 py-12 mx-auto mt-8 lg:pl-16 lg:gap-16 lg:grid-cols-2 xl:grid-cols-3 dark:bg-black bg-banner rounded-3xl">
       <div className="order-2 lg:order-1 xl:col-span-2">
-        <h1 className="text-3xl font-bold lg:text-5xl text-text ">
+        <h1 className="text-3xl font-bold lg:text-5xl text-text dark:text-white ">
           SEEDRA Basil Seeds for Indoor and Outdoor Planting
         </h1>
-        <h6 className="mt-3 text-sm lg:text-base text-text">
+        <h6 className="mt-3 text-sm lg:text-base text-text dark:text-white">
           Be sure of our quality - the freshest batches of this season. Non-GMO,
           Heirloom - our seeds were tested and have the best germination
           ratings. Your easy growing experience is our guarantee
@@ -25,7 +25,7 @@ const Banner = () => {
               fill="#E55C5C"
             />
           </svg>
-          <span className="text-4xl font-bold text-text">$12.56</span>
+          <span className="text-4xl font-bold text-text dark:text-white">$12.56</span>
           <span className="text-xl font-bold line-through text-throughColor">$15.56</span>
         </div>
         <div className='flex items-center mt-6 space-x-3'>
