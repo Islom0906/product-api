@@ -5,7 +5,7 @@ const initialValue = {
 }
 
 const reducer=(state=initialValue,action)=>{
-  const {type,payload} =action
+  const {type} =action
   if(type==="ON_DARK"){
     const editDark =!state.dark
     return {...state,dark:editDark }
