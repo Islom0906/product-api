@@ -1,11 +1,8 @@
-import axios from "axios";
-
-const BASE_URL='https://fakestoreapi.com'
-
+import axios from "./api"
 
 export const ApiProduct={
   async apiProduct(url){
-    const result= await axios.get(`${BASE_URL}/${url}`)
+    const result= await axios.get(`/${url}`)
     return result.data
   }
 }

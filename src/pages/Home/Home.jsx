@@ -7,10 +7,8 @@ const Home = () => {
 
   useEffect(()=>{
     const getData= async ()=>{
-      console.log('render');
       try {
         const data =await ApiProduct.apiProduct('products?limit=6')
-        console.log(data);
         setproduct(data)
       } catch (error) {
         console.log(error);
