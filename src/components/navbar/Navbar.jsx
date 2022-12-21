@@ -23,12 +23,11 @@ const Navbar = () => {
     dispatch(isToken(false));
     navigate("/login");
   };
-
-  useEffect(() => {
-    if (!loggedIn) {
-      navigate("/login");
-    }
-  }, [loggedIn]);
+  // useEffect(() => {
+  //   if (!loggedIn) {
+  //     navigate("/login");
+  //   }
+  // }, []);
 
   return (
     <div className="w-full bg-white shadow-md dark:bg-black ">
