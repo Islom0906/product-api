@@ -18,7 +18,6 @@ const Navbar = () => {
   };
 
   const logOut = () => {
-
     removeItem("token");
     dispatch(isToken(false));
     navigate("/login");
